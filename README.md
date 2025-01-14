@@ -15,39 +15,39 @@ __Испольнитель:__
 1) В терминале комипиллятора:
 
    ```
-   <git clone  https://github.com/Nemious/Lab1.git>
-   <cd Lab1>
+   git clone  https://github.com/Nemious/Lab1.git
+   cd Lab1
    ```
    
    Проверка текущего каталога:
 
    ```
-   <pwd>
+   pwd
    ```
 
 3) Устанавливаем __pyinstaller__:
    
    ```
-   <pip install pyinstaller>
+   pip install pyinstaller
    ```
 
 4) Создаем исполняемый файл:
    
    ```
-   <pyinstaller --onefile game.py>
+   pyinstaller --onefile game.py
    ```
 
 6) Перейдите в директорию __dist__:
    
    ```
-   <cd dist>
+   cd dist
    ```
 
 7) Запустите исполняемый файл:
    
    ```
-   <./game  # Для Linux/Mac>
-   <game.exe  # Для Windows>
+   ./game  # Для Linux/Mac
+   game.exe  # Для Windows
    ```
    
 
