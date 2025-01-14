@@ -13,7 +13,7 @@ __Испольнитель:__
 
 ### Инструкция сборки с помощью pyinstaller:
 В терминале комипиллятора:
-git clone  https://github.com/Nemious/Lab1.git
+```git clone  https://github.com/Nemious/Lab1.git```
 cd Lab1
    
 Проверка текущего каталога:
