@@ -13,19 +13,19 @@ __Испольнитель:__
 
 ### Инструкция сборки с помощью pyinstaller:
 1) В терминале комипиллятора:
-   git clone  https://github.com/Nemious/Lab1.git
-   cd Lab1
+git clone  https://github.com/Nemious/Lab1.git
+cd Lab1
    Проверка текущего каталога:
-   pwd
+pwd
 2) Устанавливаем pyinstaller:
-   pip install pyinstaller
+pip install pyinstaller
 3) Создаем исполняемый файл:
-   pyinstaller --onefile game.py
+pyinstaller --onefile game.py
 4) Перейдите в директорию dist:
-   cd dist
+cd dist
 5) Запустите исполняемый файл:
-   ./game  # Для Linux/Mac
-   game.exe  # Для Windows
+./game  # Для Linux/Mac
+game.exe  # Для Windows
 
 ### Как пользоваться программой?
 1) Введите "Камень", "Ножницы" или "Бумага".
