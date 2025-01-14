@@ -18,12 +18,6 @@ __Испольнитель:__
    git clone  https://github.com/Nemious/Lab1.git
    cd Lab1
    ```
-   
-   Проверка текущего каталога:
-
-   ```
-   pwd
-   ```
 
 3) Устанавливаем __pyinstaller__:
    
