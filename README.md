@@ -12,27 +12,32 @@ __Испольнитель:__
 Необходимо скачать файл __".py"__ и запустить в комипилляторе, поддерживающим такой формат. (Пример __PyCharm__)
 
 ### Инструкция сборки с помощью pyinstaller:
-В терминале комипиллятора
-***
-```git clone  https://github.com/Nemious/Lab1.git```
+1) В терминале комипиллятора:
 
-```cd Lab1```
+   ```git clone  https://github.com/Nemious/Lab1.git```
+
+   ```cd Lab1```
    
-Проверка текущего каталога:
-pwd
+   Проверка текущего каталога:
 
-Устанавливаем pyinstaller:
-pip install pyinstaller
+   ```pwd```
 
-Создаем исполняемый файл:
-pyinstaller --onefile game.py
+2) Устанавливаем pyinstaller:
+   
+   ```pip install pyinstaller```
 
-Перейдите в директорию dist:
-cd dist
+4) Создаем исполняемый файл:
+   
+   ```pyinstaller --onefile game.py```
 
-Запустите исполняемый файл:
-./game  # Для Linux/Mac
-game.exe  # Для Windows
+5) Перейдите в директорию dist:
+   
+   ```cd dist```
+
+6) Запустите исполняемый файл:
+   
+   ```./game  # Для Linux/Mac```
+   ```game.exe  # Для Windows```
 
 ### Как пользоваться программой?
 1) Введите "Камень", "Ножницы" или "Бумага".
