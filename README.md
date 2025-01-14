@@ -17,13 +17,13 @@ git clone  https://github.com/Nemious/Lab1.git
 cd Lab1
    Проверка текущего каталога:
 pwd
-2) Устанавливаем pyinstaller:
+3) Устанавливаем pyinstaller:
 pip install pyinstaller
-3) Создаем исполняемый файл:
+4) Создаем исполняемый файл:
 pyinstaller --onefile game.py
-4) Перейдите в директорию dist:
+5) Перейдите в директорию dist:
 cd dist
-5) Запустите исполняемый файл:
+6) Запустите исполняемый файл:
 ./game  # Для Linux/Mac
 game.exe  # Для Windows
 
