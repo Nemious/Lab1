@@ -14,27 +14,36 @@ __Испольнитель:__
 ### Инструкция сборки с помощью pyinstaller:
 1) В терминале комипиллятора:
 
-   ```git clone  https://github.com/Nemious/Lab1.git```
-
-   ```cd Lab1```
+   ```
+   <git clone  https://github.com/Nemious/Lab1.git>
+   <cd Lab1>
+   ```
    
    Проверка текущего каталога:
 
-   ```pwd```
+   ```
+   <pwd>
+   ```
 
-2) Устанавливаем __pyinstaller__:
+3) Устанавливаем __pyinstaller__:
    
-   ```pip install pyinstaller```
+   ```
+   <pip install pyinstaller>
+   ```
 
 4) Создаем исполняемый файл:
    
-   ```pyinstaller --onefile game.py```
+   ```
+   <pyinstaller --onefile game.py>
+   ```
 
-5) Перейдите в директорию __dist__:
+6) Перейдите в директорию __dist__:
    
-   ```cd dist```
+   ```
+   <cd dist>
+   ```
 
-6) Запустите исполняемый файл:
+7) Запустите исполняемый файл:
    
    ```
    <./game  # Для Linux/Mac>
